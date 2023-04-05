@@ -27,7 +27,7 @@ Studerande utvecklar en backend tjänst som kan lagra information om chatter och
 ### Endpoints
 Backendend ska innehålla **minst** följande fungerande endpoints. Varje endpoint beskrivs som "[http-metod] - url <-- förväntat resultat vid anrop".
 
-1. [GET] - http://adress:port/ducks/api/channel/ <-- hämtar en lista över annonserade kanaler. Se VG kritierier för krav till ett högre betyg.
+1. [GET] - http://address:port/ducks/api/channel/ <-- hämtar en lista över annonserade kanaler. Se VG kritierier för krav till ett högre betyg.
    
 2. [GET] - http://adress:port/ducks/api/channel/:id <-- hämtar innehållet i en identiferad kanal som tidigare har annonserats ut, detta syftar på meddelanden som har skickats i kanalen. Se VG kritierier för krav till ett högre betyg.
    
