@@ -1,7 +1,7 @@
 # Vägradio
 **Deadline**: 14e april 17:00.
 
-Utgå från de grupper ni skapade i början av kursen, se: ...
+Utgå från de grupper ni skapade i början av kursen, se grupperna på omnius som ni skapade i början av kursen.
 
 Syftet med denna uppgift är att studerande ska få en möjlighet att redovisa förståelse för backend arkitektur genom skapandet av en chatt-apps backend. I uppgiften betonas vikten av en genomtänkt backend där studerande **inte** förväntas spendera mer än ett par timmar på att utveckla en frontend lösning. Vidare så behöver inte heller frontended täcka all backend tjänster då verktyg såsom insomnia, postman och thunderclient bör kunna användas för att "testa" samtliga tjänster.
 
