@@ -40,7 +40,7 @@ Backendend ska innehålla **minst** följande fungerande endpoints. Varje endpoi
 
 6. [GET] - http://adress:port/ducks/api/broadcast/ <-- hämtar en lista över alla händelser som har skickats ut, ex. älgvandring, traffikolycker m.m. Se VG kritierier för krav till ett högre betyg.
    
-7. [POST] - http://adress:port/ducks/api/broadcast/ <-- skapar en ny nödhändelse.
+7. [POST] - http://adress:port/ducks/api/broadcast/ <-- skapar en ny nödhändelse. Detta anrop ska kräva ett giltigt JWT token.
 
 
 
@@ -94,7 +94,7 @@ Via omnius skicka in följande
 För ett högre betyg krävs det att sockets används för att skapa realtidsdialoger mellan klient och backend.
 
 ### Godkänt
-För betyget godkänt så ska samtliga endpoints implemeteras enligt beskrivningen ovan samt redovisande av en inspelad video där deltagar visar förmåga på att förklarar innehåll och deltagande i arbetet. Koden ska även, till viss del, ta hänsyn till att klienten *kan* skicka fel format på datan. Exempelvis så bör fallet då ett id-värde saknas resultera i en lämplig 400 kod.
+För betyget godkänt så ska samtliga endpoints implemeteras enligt beskrivningen ovan samt redovisande av en inspelad video där deltagar visar förmåga på att förklarar innehåll och deltagande i arbetet. Koden ska även, till viss del, ta hänsyn till att klienten *kan* skicka fel format på datan. Exempelvis så bör fallet då ett id-värde saknas resultera i en lämplig 400 kod. Vidare ska även JWT token användas när klienten skickar in ett meddelande till nödkanalen.
 
 ### Väl godkänt
 För betyget väl godkänt så ska kraven för godkänt vara uppfyllda. Vidare krävs det även att JWT används för att verifiera att användaren har behörighet till att göra särskilda anrop, hur behörigheten skapas bestäms av studerande.
