@@ -1,4 +1,4 @@
-# Vägradio
+# Gertrudes radio-request
 **Deadline**: 14e april 17:00.
 
 Utgå från de grupper ni skapade i början av kursen, se grupperna på omnius som ni skapade i början av kursen.
