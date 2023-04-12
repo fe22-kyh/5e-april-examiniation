@@ -55,7 +55,7 @@ Backendend ska innehålla **minst** följande fungerande endpoints. Varje endpoi
 
 Innan deadline ska en individuell videopresentation skickas in via omnius. Videon måste uppfylla följande tekniska krav:
 1. Studerande måste vara synlig i minst 15 sekunder under videoinspelningen.
-2. Videon får **inte** överstiga 3 minuter och 30 sekunder (~290~ 210 sekunder totalt).
+2. Videon får **inte** överstiga ~3 minuter och 30 sekunder~ 4 minuter (~290~ 240 sekunder totalt).
 3. Ljudkvaliteten ska vara accepterbar och det ska gå att höra den inspelades röst under hela inspelningen.
    
 Följande ska presenteras under inspelningen.
